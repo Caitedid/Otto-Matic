@@ -1,0 +1,31 @@
+# 🦔 Otto-Matic – Chrome Extension
+
+Otto-Matic is a customizable Chrome extension that adds a right-click menu to launch your favorite team tools. It’s lightweight, fast, and spiky with hedgehog energy.
+
+## 🚀 Features
+- Add custom tool links from the options menu
+- Store and sync tools across browsers using `chrome.storage.sync`
+- Launch tools directly from the right-click context menu
+- Cute hedgehog icon for extra charm
+
+## 🔧 How to Install
+1. Download or clone this repo
+2. Go to `chrome://extensions` in your Chrome browser
+3. Enable **Developer mode**
+4. Click **Load unpacked** and select the `otto-matic` folder
+
+## ✨ Screenshots
+
+*(Add a screenshot here of the options page or right-click menu)*
+
+## 🛠 Tech Used
+- Manifest V3
+- JavaScript / HTML / CSS
+- Chrome Extensions API
+- `chrome.storage.sync` for saving tools
+
+## 📦 To Build for Release
+Just zip the folder and upload to the Chrome Web Store.
+
+```bash
+zip -r otto-matic.zip . -x "*.DS_Store" "*.git*"

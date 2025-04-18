@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Otto-Matic Tool Manager</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f8f8f8; }
+    h1 { font-size: 1.4em; }
+    label, input, button { display: block; margin-bottom: 10px; }
+    input { padding: 5px; width: 100%; max-width: 300px; }
+    button { padding: 5px 10px; }
+    ul { padding-left: 0; list-style: none; }
+    li { background: #fff; margin-bottom: 5px; padding: 10px; border-radius: 5px; }
+    .tool-url { font-size: 0.9em; color: #555; }
+    .remove-btn { margin-left: 10px; color: red; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Manage Your Tools</h1>
+  <label for="toolName">Tool Name:</label>
+  <input type="text" id="toolName" placeholder="e.g. Slack">
+  <label for="toolURL">Tool URL:</label>
+  <input type="url" id="toolURL" placeholder="https://yourtool.com">
+  <button id="addTool">Add Tool</button>
+
+  <h2>Saved Tools</h2>
+  <ul id="toolList"></ul>
+
+  <script src="options.js"></script>
+</body>
+</html>
