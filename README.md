@@ -1,5 +1,5 @@
 # 🦔 Otto-Matic – Chrome Extension
-
+![Otto the Hedgehog](otto-matic-hedgehog-2in.jpg)
 Otto-Matic is a customizable Chrome extension that adds a right-click menu to launch your favorite team tools. Collect your SPYDRs, Arkose, VirusTotal, SensAI, SpamCons, edu tools, etc all in one place. If it has a URL Otto can hang on to it for you!
 
  It’s lightweight, fast, and spiky with hedgehog energy.
