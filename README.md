@@ -16,10 +16,6 @@ Otto-Matic is a customizable Chrome extension that adds a right-click menu to la
 3. Enable **Developer mode**
 4. Click **Load unpacked** and select the `otto-matic` folder
 
-## ✨ Screenshots
-
-*(Add a screenshot here of the options page or right-click menu)*
-
 ## 🛠 Tech Used
 - Manifest V3
 - JavaScript / HTML / CSS
